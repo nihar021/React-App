@@ -1,0 +1,18 @@
+This React-based News App dynamically fetches and displays top headlines based on selected categories using the News API.
+
+1.App Component (App.js)
+Manages the selected news category using useState.
+Renders NavBar and NewsBoard components.
+
+2.Navigation Bar (NavBar.js)
+Displays category options (Technology, Business, Health, Sports, Entertainment).
+Updates the selected category on click.
+
+3.News Board (NewsBoard.js)
+Fetches news articles based on the selected category using useEffect.
+Uses the News API to get real-time news.
+Displays news articles using the NewsItem component.
+
+4.News Item (NewsItem.js)
+Displays individual news articles.
+Shows a title, description, image, and a "Read More" button linking to the full news.
